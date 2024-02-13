@@ -1,0 +1,32 @@
+# Ignore target directory (where Rust build artifacts are stored)
+/target/
+
+# Ignore any compiled artifacts
+**/*.rs.bk
+**/*.rlib
+**/*.rmeta
+**/*.d
+**/*.dep
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.rlib
+**/*.a
+**/*.o
+**/*.obj
+**/*.pdb
+**/*.pdb.lock
+**/*.res
+**/*.exp
+**/*.ilk
+**/*.lib
+**/*.staticlib
+**/*.dll.lib
+
+# Ignore any temporary or generated files
+#Cargo.lock
+#Cargo.toml.orig
+#Cargo.toml.bk
+#*.log
+#*.swp
